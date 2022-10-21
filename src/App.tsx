@@ -1,13 +1,10 @@
-import { useEffect, useState, useCallback } from 'react'
+import './styles/global.css'
 
-import { LoginPage } from './page/LoginPage'
-import { MyButton } from './components/MyButton'
+import { LoginPage } from './pages/LoginPage'
 
 function App() {
   return (
-    <LoginPage name="Vini">
-      <MyButton>Hello</MyButton>
-    </LoginPage>
+    <LoginPage />
   )
 }
 
