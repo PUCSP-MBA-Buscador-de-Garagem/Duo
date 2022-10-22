@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+header h1 {
+    margin-right: 125px;
+    margin-bottom: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #121214;
+}
+
+header p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #7C7C8A;
+}
+
+header {
+    margin-bottom: 56px;
+}
+
+ul { 
+    list-style: inside;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    }
+
+li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 200px;
+    color: #EE964B;
+    
+}
